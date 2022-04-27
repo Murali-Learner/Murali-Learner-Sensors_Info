@@ -16,7 +16,8 @@ class _ControllerState extends State<Controller> {
       body: Container(
         height: MediaQuery.of(context).size.height,
         padding: EdgeInsets.all(50),
-        color: Colors.black,
+        color: Colors.blue,
+        alignment: Alignment.center,
         child: SeparatedColumn(
           separatorBuilder: (BuildContext context, int index) => SizedBox(
             height: 20,
